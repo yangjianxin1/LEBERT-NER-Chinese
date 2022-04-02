@@ -1,6 +1,8 @@
 # LEBERT-基于词汇信息融合的中文命名实体识别模型
 
 ## 项目简介
+微信公众号【YeungNLP】文章：[LEBERT：基于词汇增强的中文NER模型](https://mp.weixin.qq.com/s/1MxTx10_lA5iFvBqkX_Q3A)
+
 [LEBERT](https://arxiv.org/abs/2105.07148) 是将词汇信息引入到BERT模型中的NER模型，
 本项目的目的在于验证[LEBERT](https://arxiv.org/abs/2105.07148) 模型在中文NER数据集上的表现。分别验证了Bert-Softmax、Bert-Crf、
 LEBert-Softmax、LEBert-Crf在Resume、Ontonote、Msra、Weibo四个中文数据集上的表现。
